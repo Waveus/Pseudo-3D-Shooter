@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Scenesh">
+      <UniqueIdentifier>{a6db3706-0d8f-4585-991d-cfbaf0c2d0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenescpp">
+      <UniqueIdentifier>{45523ec8-f95f-40de-bf12-99b3f43b691b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entityLikeh">
+      <UniqueIdentifier>{d708e783-fd90-4522-b1f6-9c6d463f67fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entityLikecpp">
+      <UniqueIdentifier>{b3f2bef0-81f5-4bbf-9204-1b2f035743eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utility">
+      <UniqueIdentifier>{86fa99a8-0591-4648-9681-3e9a9c7bf484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utilityh">
+      <UniqueIdentifier>{d38c5e59-2562-47c3-8592-96e9ae1db432}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsScene.cpp">
+      <Filter>Source Files\Scenescpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenescpp</Filter>
+    </ClCompile>
+    <ClCompile Include="mapSelectScene.cpp">
+      <Filter>Source Files\Scenescpp</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>Source Files\Scenescpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>Source Files\Scenescpp</Filter>
+    </ClCompile>
+    <ClCompile Include="realMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files\entityLikecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\entityLikecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\entityLikecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="exitScene.cpp">
+      <Filter>Source Files\Scenescpp</Filter>
+    </ClCompile>
+    <ClCompile Include="betterButton.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="buttonSelectHandler.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="betterCounter.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="counter.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="drawableTransformable.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="allActiveBullets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="activeDummies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Raycasting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enumScenes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenesh</Filter>
+    </ClInclude>
+    <ClInclude Include="settingsScene.h">
+      <Filter>Header Files\Scenesh</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>Header Files\Scenesh</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScene.h">
+      <Filter>Header Files\Scenesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mapSelectScene.h">
+      <Filter>Header Files\Scenesh</Filter>
+    </ClInclude>
+    <ClInclude Include="realMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>entityLikeh</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>entityLikeh</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>entityLikeh</Filter>
+    </ClInclude>
+    <ClInclude Include="exitScene.h">
+      <Filter>Header Files\Scenesh</Filter>
+    </ClInclude>
+    <ClInclude Include="betterCounter.h">
+      <Filter>Header Files\utilityh</Filter>
+    </ClInclude>
+    <ClInclude Include="counter.h">
+      <Filter>Header Files\utilityh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\utilityh</Filter>
+    </ClInclude>
+    <ClInclude Include="drawableTransformable.h">
+      <Filter>Header Files\utilityh</Filter>
+    </ClInclude>
+    <ClInclude Include="buttonSelectHandler.h">
+      <Filter>Header Files\utilityh</Filter>
+    </ClInclude>
+    <ClInclude Include="betterButton.h">
+      <Filter>Header Files\utilityh</Filter>
+    </ClInclude>
+    <ClInclude Include="allActiveBullets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="activeDummies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raycasting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\config.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\resources\Maps\map1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\resources\Maps\map2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\resources\Maps\map4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\resources\Maps\map5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\resources\Maps\map3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
